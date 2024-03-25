@@ -1,0 +1,230 @@
+/* color: rgb(245 235 220) */
+
+*{
+
+padding : 0;
+margin:  0;
+box-sizing: border-box;
+
+}
+
+body {
+    padding: 3rem 0;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+/* head design  */
+
+.head-container {
+    height: 15rem ;
+    width: 100%;
+  background-color: rgb(245 235 220) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  flex-wrap: wrap;
+
+}
+
+
+#logo {
+    width: 15rem;
+    margin-right: 2rem;
+}
+
+.icon {
+    font-size: 3rem;
+    color: orange;
+}
+h1 {
+    font-size: 3rem;
+    color: orange;
+
+}
+
+#icon {
+ display: flex;
+ justify-content: space-between;
+ gap: 2rem;
+}
+
+/* main section started  */
+
+.main-container{
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  padding-left:  15rem;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: black;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  
+  } 
+  
+
+/* ended */
+
+
+
+/* footer strated  */
+
+.footer-container {
+margin-top: 5rem;
+  padding-left: 4rem;
+  /* border: 1px solid black; */
+padding: 4rem 20rem;
+background-color: aqua;
+display: flex;
+justify-content: space-between;
+}
+.one {
+  flex-direction: column;
+  font-size: 1rem;
+
+
+
+
+}
+.pic {
+color: yellowgreen;
+
+
+}
+.pic:hover {
+  cursor: pointer;
+  color: blue;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-top: 10rem;
+}
+.one p:hover {
+  cursor: pointer;
+  color: yellowgreen;
+}
+.one h1 {
+  margin-left: -.5rem;
+color: blue;
+}
+
+
+
+/* break points  */
+
+@media(max-width: 590px){
+
+h1 {
+    font-size: 1.5rem;
+    
+}
+#logo{
+  width: 8rem;
+}
+.icon {
+  font-size: 1.5rem; 
+}
+
+}
+
+
+
+
+
+@media(max-width: 354px){
+
+ .main-container{
+
+height: 10rem;
+
+
+ }
+    h1 {
+        font-size: 1.2rem;
+        
+    }
+    #logo{
+      width: 6rem;
+    }
+    .icon {
+      font-size: 1.5rem; 
+    }
+
+
+}
+
+/* ended  */
+
+
+/* main section started  */
+
+
+
+
+@media(max-width: 328px){
+
+
+    h1 {
+        font-size: 1rem;
+        
+    }
+    #logo{
+      width: 4rem;
+    }
+    .icon {
+      font-size: 1.1rem; 
+    }
+
+
+
+}
+
+
+@media(max-width: 282px){
+
+
+  .main-container{
+
+    padding: 0 2rem;
+  }
+    h1 {
+        font-size: 1rem;
+        
+    }
+    #logo{
+      width: 4rem;
+    }
+    .icon {
+      font-size: 1.1rem; 
+    }
+
+}
+
+@media(max-width: 228px){
+
+    .main-container{
+
+        padding: 0 0.5rem;
+        height: 6rem;
+      }
+        h1 {
+            font-size: 1rem;
+            
+        }
+        #logo{
+          width: 4rem;
+        }
+        .icon {
+          font-size: 1.1rem; 
+        }
+
+}
